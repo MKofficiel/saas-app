@@ -1,7 +1,8 @@
+import { PricingTable } from "@clerk/nextjs";
 import React from "react";
 
 const Susbsription = () => {
-  return <div>Susbsription</div>;
+  return <PricingTable />;
 };
 
 export default Susbsription;
